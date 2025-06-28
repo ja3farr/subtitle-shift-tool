@@ -15,9 +15,9 @@ A Python notebook that shifts `.srt` subtitle files forward or backward in time 
 - datetime, file I/O
 
 ## 📁 How to Use
-1. Upload your `.srt` file to the same folder as the notebook
-2. Set the shift value (e.g., `+2.5` or `-1.75`)
-3. Run all cells — the notebook will create a new subtitle file with shifted times
+1. Upload your `.srt` file to the same folder as the notebook.
+2. Set the shift value in **milliseconds** (e.g., `+2500` for a 2.5-second delay, or `-1750` to make subtitles appear 1.75 seconds earlier).
+3. Run all cells — the notebook will create a new subtitle file with shifted timing.
 
 ## 👤 Author
 [Ja3far Yousef](https://github.com/ja3farr)
